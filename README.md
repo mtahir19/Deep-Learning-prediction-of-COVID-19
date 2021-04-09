@@ -6,13 +6,22 @@
  - [interpretation.ipynb](#prediction.ipynb-contents)
  - [nlp.ipynb](#nlp.ipynb-contents)
  - [External Research](#External-Research)
- - [Conclusions & Recommendations](#Conclusions-&-Outlook)
+ - [Conclusions & Outlook](#Conclusions-&-Outlook)
  - [Data Sources](#Data-Sources)
 
 ## Problem Statement:
 A recent scientific review-paper published in Nature has found that out of the more than 300 COVID-19 machine learning models described in 2020 <sup>1</sup>. None of them is suitable for detecting or diagnosing COVID-19 from standard medical imaging. This is due to biases, methodological flaws, lack of reproducibility, and ‘Frankenstein datasets.
 The ability to predict the progress of the COVID-19 disease is crucial to decision making aimed at controlling the spread. There is no significant collection of COVID-19 chest X-rays or CT scans designed to be used for computational analysis.
 In order to achieve success at large scale, questions to explore in such a situation are: Can we accurately classify and predict covid-19 through x-ray images or can we incorporate heterogeneous data sources (NLP) to improve the diagnostic ?
+
+Objectives:
+To forecast the number of infections due to covid-19 with a maximum prediction accuracy (precision and recall : False negative is critical)
+
+## Expected outcomes:
+
+Tool impact: This would give physicians an edge and allow them to act with more confidence while they wait for the analysis of a radiologist by having a digital second opinion confirm their assessment of a patient's condition. Also, these tools can provide quantitative scores to consider and use in studies.
+
+Data impact: Image data linked with clinically relevant attributes in a public dataset that is designed for ML will enable parallel development of these tools and rapid local validation of models. Furthermore, this data can be used for completely different tasks.
 
 **Citations**:
 <br>
@@ -42,7 +51,7 @@ When analyzing the datasets, few findings about SAT test scores and participatio
 - SAT Participation Rates, 2017-18: The distribution of participation rates from all states appeared to be right skewed and slightly bimodal, where a majority of states experienced low participation rates, and only some had high participation rates. 
 - SAT Test Scores vs Participation Rates, 2017-18: In both years, there was a strong negative correlation between test scores and participation rates. The higher the participation rate, the lower the test score. A concentration of states on the East Coast tended have a combination of high participation and low test scores. 
 
-### sat-data-muhammad.ipynb Contents:
+### prediction.ipynb Contents:
 - Description of the chest X-ray images
 - Data Import & Cleaning
 - Exploratory Data Analysis
@@ -51,6 +60,9 @@ When analyzing the datasets, few findings about SAT test scores and participatio
 - Regularization Method: L1 and L2
 - External Research
 - Conclusions and Outlook
+
+### interpretation.ipynb Contents:
+### nlp.ipynb Contents:
 ---
 
 ---
@@ -89,15 +101,3 @@ The sources of the datasets used in this analysis:
 4 - https://www.kaggle.com/search?q=lungs+image+segmentation+datasetFileTypes%3Ajpg+datasetSize%3Alarge
 
 5- https://github.com/ieee8023/covid-chestxray-dataset
-
-
-
-Objectives:
-To forecast the number of infections due to covid-19 with a maximum prediction accuracy (precision and recall : False negative is critical)
-
-
-## Expected outcomes:
-
-Tool impact: This would give physicians an edge and allow them to act with more confidence while they wait for the analysis of a radiologist by having a digital second opinion confirm their assessment of a patient's condition. Also, these tools can provide quantitative scores to consider and use in studies.
-
-Data impact: Image data linked with clinically relevant attributes in a public dataset that is designed for ML will enable parallel development of these tools and rapid local validation of models. Furthermore, this data can be used for completely different tasks.
