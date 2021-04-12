@@ -91,7 +91,8 @@ Therefore in order to achieve sustainable growth and be a resource trusted by st
 
 --- 
 ## Data Sources
-The sources of the datasets used in this analysis: 
+The sources of the datasets used in this analysis:
+
 1 - https://scitechdaily.com/300-covid-19-machine-learning-models-have-been-developed-none-is-suitable-for-detecting-or-diagnosing/
 
 2- https://www.nature.com/articles/s42256-021-00307-0
