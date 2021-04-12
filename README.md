@@ -10,7 +10,7 @@
  - [Data Sources](#Data-Sources)
 
 ## Problem Statement:
-A recent scientific review-paper published in Nature has found that out of the more than 300 COVID-19 machine learning models described in 2020 <sup>1</sup>. None of them is suitable for detecting or diagnosing COVID-19 from standard medical imaging. This is due to biases, methodological flaws, lack of reproducibility, and ‘Frankenstein datasets.
+A recent scientific review-paper published in Nature has found that out of the more than 300 COVID-19 machine learning models described in 2020 <sup>1</sup>. None of them is suitable for detecting or diagnosing COVID-19 from standard medical imaging. This is due to biases, methodological flaws, lack of reproducibility, and "Frankenstein" datasets.
 The ability to predict the progress of the COVID-19 disease is crucial to decision making aimed at controlling the spread. There is no significant collection of COVID-19 chest X-rays or CT scans designed to be used for computational analysis.
 In order to achieve success at large scale, questions to explore in such a situation are: Can we accurately classify and predict covid-19 through x-ray images or can we incorporate heterogeneous data sources (NLP) to improve the diagnostic ?
 
