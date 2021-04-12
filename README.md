@@ -51,6 +51,7 @@ When analyzing the datasets, few findings about SAT test scores and participatio
 - SAT Participation Rates, 2017-18: The distribution of participation rates from all states appeared to be right skewed and slightly bimodal, where a majority of states experienced low participation rates, and only some had high participation rates. 
 - SAT Test Scores vs Participation Rates, 2017-18: In both years, there was a strong negative correlation between test scores and participation rates. The higher the participation rate, the lower the test score. A concentration of states on the East Coast tended have a combination of high participation and low test scores. 
 
+## Main Contents:
 ### prediction.ipynb Contents:
 - Description of the chest X-ray images
 - Data Import & Cleaning
@@ -58,11 +59,26 @@ When analyzing the datasets, few findings about SAT test scores and participatio
 - Convolutional Neural Network (CNN) and Early Stopping
 - Dropout Regularization
 - Regularization Method: L1 and L2
+
+### interpretation.ipynb Contents:
+- Description of the chest X-ray images
+- Data Import & Cleaning
+- Exploratory Data Analysis
+- Convolutional Neural Network (CNN) and Early Stopping
+- Dropout Regularization
+- Regularization Method: L1 and L2
+
+### nlp.ipynb Contents:
+- Description of the chest X-ray images
+- Data Import & Cleaning
+- Exploratory Data Analysis
+- Convolutional Neural Network (CNN) and Early Stopping
+- Dropout Regularization
+- Regularization Method: L1 and L2
+
 - External Research
 - Conclusions and Outlook
 
-### interpretation.ipynb Contents:
-### nlp.ipynb Contents:
 ---
 
 ---
