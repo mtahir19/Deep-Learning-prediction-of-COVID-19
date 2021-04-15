@@ -34,14 +34,14 @@ An analysis is conducted on the x-ray image for diaginisis of COVID-19. 931 imag
 
 **METHODOLOGY**
 
-A **data science workflow** was implemented to conduct this analysis. Firstly, the **problem statement** was defined—the physicians needed to determine how to increase accuracy rates and improve COVID-19 spread control. Next, **data ** was downloaded by locating credible sources that housed the appropriate datasets: Images data sets. Before beginning any analysis of the data, each individual dataset was imported to a **Pandas DataFrame**. Next, **data cleaning** was conducted to ensure that all datatypes were accurate and any other errors were fixed. Using all data, an **exploratory data analysis** was conducted to determine any parameters. Since the image datasets contain data from a random source, the parameters were measured, not sample statistics. Grid Search findings were used to then perform **data visualization and model predictions**. The following data visualizations were used to display the data: 
+A **data science workflow** was implemented to conduct this analysis. Firstly, the **problem statement** was defined—the physicians needed to determine how to increase accuracy rates and improve COVID-19 spread control. Next, **data ** was downloaded by locating credible sources that housed the appropriate datasets: Images data sets. Before beginning any analysis of the data, each individual dataset was imported to a **Pandas DataFrame**. Next, **data cleaning** was conducted to ensure that all data types were accurate and any other errors were fixed. Using all data, an **exploratory data analysis** was conducted to determine any parameters. Since the image datasets contain data from a random source, the parameters were measured, not sample statistics. Grid Search findings were used to then perform **data visualization and model predictions**. The following data visualizations were used to display the data: 
 - Model-1: Convolutional Neural Network (CNN) and Early Stopping
 - Model-2: Dropout Regularization
 - Model-3: Regularization Method: L1 and L2
 - Model Interpretability using SHAP
 - Supported by Natural Language Processing model prediction
 
-Once all data was visualized and some predictions are made.  To confirm and support the observations made, **external research** about the COVID-19 work and any other relevant data was conducted. Finally, well-informed **data-driven recommendations** for the physicians were compiled. 
+Once all data is visualized and some predictions are made.  To confirm and support the observations made, **external research** about the COVID-19 work and any other relevant data was conducted. Finally, well-informed **data-driven recommendations** for the physicians were compiled. 
 
 **SIGNIFICANT FINDINGS**
 
@@ -62,7 +62,7 @@ When analyzing the datasets, few findings about COVID-19 images scores were gath
 
 - Regularization Method: L1 and L2: loss: 0.6580 - acc: 0.6382 - auc_3: 0.6827 - val_loss: 0.6587
 
-- Indeed the score is best for first simple NN model.
+- Indeed the score is best for the first simple NN model.
 
 
 ## Main Contents:
@@ -92,7 +92,7 @@ When analyzing the datasets, few findings about COVID-19 images scores were gath
 
 ---
 ## External Research
-According to a very recent scientific review-paper published in the "journal Nature Machine Intelligence" has identified a lot important findings. This search identified 2,212 studies, of which 415 were included after initial screening and, after quality screening, "only 62 studies were included in the systematic review". None of the 62 models was of potential clinical use, which is a major weakness, given the urgency with which validated COVID-19 models are needed.
+According to a very recent scientific review-paper published in the "journal Nature Machine Intelligence" has identified a lot of important findings. This search identified 2,212 studies, of which 415 were included after initial screening and, after quality screening, "only 62 studies were included in the systematic review". None of the 62 models was of potential clinical use, which is a major weakness, given the urgency with which validated COVID-19 models are needed.
 We believe that Machine Learning is a promising and potentially powerful technique for detection and prognosis of COVID-19 disease. Machine Learning models could enable a personalized approach to medicine through improved diagnosis and prediction of individual responses to therapies.
 
 Some of the studies were hampered by issues with poor quality data, poor application of machine learning methodology, poor reproducibility, and biases in study design. A lot of the machine learning models were trained on sample datasets that were too small to be effective. Many other papers, the studies did not specify where their data had come from, or the models were trained and tested on the same data, or they were based on publicly available ‘Frankenstein datasets’ that had evolved and merged over time, making it impossible to reproduce the initial results. Therefore, in addition to higher quality datasets, manuscripts with sufficient documentation to be reproducible and external validation are required to increase the likelihood of models being taken forward and integrated into future clinical trials to establish independent technical and clinical validation as well as cost-effectiveness.
@@ -107,11 +107,11 @@ Citations
 
 ---
 ## Conclusions & Outlook 
-I found that the physicians are focusing on increasing x-ray image rates while not focusing on the quality of the images. There is a significant impact on processing and prediction rates of images, which means that the lower scores are related to not clean quality of the images taken. Secondly, we have to use best possible models and good quality data, advanced application of machine learning methodology, good reproducibility, and biases in study design.
+I found that the physicians are focusing on increasing x-ray image rates while not focusing on the quality of the images. There is a significant impact on processing and prediction rates of images, which means that the lower scores are related to not clean quality of the images taken. Secondly, we have to use the best possible models and good quality data, advanced application of machine learning methodology, good reproducibility, and biases in study design.
 <br>
 **Outlook**
 <br>
-Therefore, to achive best score and highly improved predictions, I recommend the following:  
+Therefore, to achieve best score and highly improved predictions, I recommend the following:  
 - we have to use large datasets 
 - care should be taken with publicly available ‘Frankenstein datasets’.
 - Need Sufficient documentation to be reproducible
