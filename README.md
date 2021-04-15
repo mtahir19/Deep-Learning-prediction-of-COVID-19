@@ -38,7 +38,7 @@ A **data science workflow** was implemented to conduct this analysis. Firstly, t
 - Model-1: Convolutional Neural Network (CNN) and Early Stopping
 - Model-2: Dropout Regularization
 - Model-3: Regularization Method: L1 and L2
-- Model Interpretability by SHAP
+- Model Interpretability using SHAP
 - Supported by Natural Language Processing model prediction
 
 Once all data was visualized and some predictions are made.  To confirm and support the observations made, **external research** about the COVID-19 work and any other relevant data was conducted. Finally, well-informed **data-driven recommendations** for the physicians were compiled. 
@@ -77,7 +77,7 @@ When analyzing the datasets, few findings about COVID-19 images scores were gath
 - Libraries Imports and Data Reading
 - Exploratory Data Analysis
 - Model Training: Convolutional Neural Network (CNN)
-- Model Interpretability
+- Model Interpretability using shap
 
 ### nlp.ipynb Contents:
 - Libraries Import and Reading the Data
@@ -119,12 +119,8 @@ Therefore in order to achieve sustainable growth and be a resource trusted by st
 ## Data Sources
 The sources of the datasets used in this analysis:
 
-1 - https://scitechdaily.com/300-covid-19-machine-learning-models-have-been-developed-none-is-suitable-for-detecting-or-diagnosing/
+1 - https://github.com/ieee8023/covid-chestxray-dataset
 
-2- https://www.nature.com/articles/s42256-021-00307-0
+2 - http://www.aylward.org/notes/open-access-medical-image-repositories
 
-3 - http://www.aylward.org/notes/open-access-medical-image-repositories
-
-4 - https://www.kaggle.com/search?q=lungs+image+segmentation+datasetFileTypes%3Ajpg+datasetSize%3Alarge
-
-5- https://github.com/ieee8023/covid-chestxray-dataset
+3 - https://www.kaggle.com/search?q=lungs+image+segmentation+datasetFileTypes%3Ajpg+datasetSize%3Alarge
