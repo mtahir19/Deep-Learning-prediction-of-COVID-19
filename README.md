@@ -30,17 +30,16 @@ Image data linked with clinically relevant attributes in a public dataset that i
 ## Executive Summary
 **INTRODUCTION**
 
-An analysis is conducted on the x-ray image for giaginisis of COVID-19. Each dataset contains state-by-state average test scores and participation rates, specifically from 2017 and 2018. Analyzing test scores and participation rates, the SAT make their test scores and participation data available to the public. 
+An analysis is conducted on the x-ray image for diaginisis of COVID-19. 931 images are taken to test different models. Analyzing scores and image data, the IEEE make their images and updated data available to the public. 
 
 **METHODOLOGY**
 
-A **data science workflow** was implemented to conduct this analysis. Firstly, the **problem statement** was defined—the College Board needed to determine how to increase participation rates of the SAT. Next, **data scraping** was performed by locating credible sources that housed the appropriate datasets: SAT test scores and participation rates from 2017-18. Before beginning any analysis of the data, each individual dataset was imported to a **Pandas DataFrame**. Next, **data cleaning** was conducted to ensure that all datatypes were accurate and any other errors were fixed. Using all data from both years, an **exploratory data analysis** was conducted to determine any parameters. Since the SAT datasets contain data from an entire population of high school students from the class of 2017 and 2018, the population parameters were measured, not sample statistics. All statistical findings were used to then perform **data visualization**. The following data visualizations were used to display the data: 
-- heat map
-- histograms
-- boxplots 
-- scatterplots
+A **data science workflow** was implemented to conduct this analysis. Firstly, the **problem statement** was defined—the physicians needed to determine how to increase accuracy rates and improve COVID-19 control. Next, **data ** was downloaded by locating credible sources that housed the appropriate datasets: Images data scores and NLP predictions. Before beginning any analysis of the data, each individual dataset was imported to a **Pandas DataFrame**. Next, **data cleaning** was conducted to ensure that all datatypes were accurate and any other errors were fixed. Using all data, an **exploratory data analysis** was conducted to determine any parameters. Since the image datasets contain data from a random source, the parameters were measured, not sample statistics. Grid Search findings were used to then perform **data visualization and model predictions**. The following data visualizations were used to display the data: 
+- Model-1: Convolutional Neural Network (CNN) and Early Stopping
+- Model-2: Dropout Regularization
+- Model-3: Regularization Method: L1 and L2
 
-Once all data was visualized and all statistical summaries were conveyed, **descriptive and inferential statistical analysis** was conducted to describe what the distributions were and any trends appeared in the data.  To confirm and support the observations made, **external research** about the SAT and any other relevant data was conducted. Finally, well-informed **data-driven recommendations** for the College Board were compiled. 
+Once all data was visualized and all predictions are made.  To confirm and support the observations made, **external research** about the COVID-19 work and any other relevant data was conducted. Finally, well-informed **data-driven recommendations** for the physicians were compiled. 
 
 **SIGNIFICANT FINDINGS**
 
