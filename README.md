@@ -14,14 +14,12 @@ A recent scientific review-paper published in Nature has found that out of the m
 The ability to predict the progress of the COVID-19 disease is crucial to decision making aimed at controlling the spread. There is no significant collection of COVID-19 chest X-rays or CT scans designed to be used for computational analysis.
 In order to achieve success at large scale, questions to explore in such a situation are: Can we accurately classify and predict covid-19 through x-ray images or can we incorporate heterogeneous data sources (NLP) to improve the diagnostic ?
 
-Objectives:
-To forecast the number of infections due to covid-19 with a maximum prediction accuracy (precision and recall : False negative is critical)
+## Objectives:
+To forecast the number of infections due to covid-19 with a maximum prediction accuracy (precision and recall : False negative is critical).
 
-## Expected outcomes:
+This would help physicians to make a fast decision with confidence by having a digital second opinion confirm their assessment of a patient's condition. Further, this can provide quantitative scores to consider and use in studies.
 
-Tool impact: This would give physicians an edge and allow them to act with more confidence while they wait for the analysis of a radiologist by having a digital second opinion confirm their assessment of a patient's condition. Also, these tools can provide quantitative scores to consider and use in studies.
-
-Data impact: Image data linked with clinically relevant attributes in a public dataset that is designed for ML will enable parallel development of these tools and rapid local validation of models. Furthermore, this data can be used for completely different tasks.
+Image data linked with clinically relevant attributes in a public dataset that is designed for Machine Learning will enable parallel development of these tools and rapid local validation of models. Furthermore, this data can also be used for completely different tasks.
 
 **Citations**:
 <br>
