@@ -45,14 +45,15 @@ Once all data was visualized and some predictions are made.  To confirm and supp
 
 When analyzing the datasets, few findings about COVID-19 images scores were gathered. Here are the most significant findings, focusing primarily on the images datasets: 
 - Convolutional Neural Network (CNN) and Early Stopping: loss: 0.5565 - accuracy: 0.7130 - auc_1: 0.7819 - val_loss: 0.5665
-                 precision    recall  f1-score   support
 
-           0       0.79      0.58      0.67        45
-           1       0.74      0.89      0.81        62
-
-    accuracy                           0.76       107
-   macro avg       0.77      0.73      0.74       107
-weighted avg       0.76      0.76      0.75       107
+-                 precision    recall  f1-score   support
+-
+ -          0       0.79      0.58      0.67        45
+  -         1       0.74      0.89      0.81        62
+-
+ -   accuracy                           0.76       107
+  - macro avg       0.77      0.73      0.74       107
+- weighted avg       0.76      0.76      0.75       107
 
 - Dropout Regularization: loss: 0.6714 - acc: 0.5908 - auc_2: 0.5993 - val_loss: 0.6714
  
