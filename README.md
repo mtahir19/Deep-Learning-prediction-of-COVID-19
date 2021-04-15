@@ -34,19 +34,33 @@ An analysis is conducted on the x-ray image for diaginisis of COVID-19. 931 imag
 
 **METHODOLOGY**
 
-A **data science workflow** was implemented to conduct this analysis. Firstly, the **problem statement** was defined—the physicians needed to determine how to increase accuracy rates and improve COVID-19 control. Next, **data ** was downloaded by locating credible sources that housed the appropriate datasets: Images data scores and NLP predictions. Before beginning any analysis of the data, each individual dataset was imported to a **Pandas DataFrame**. Next, **data cleaning** was conducted to ensure that all datatypes were accurate and any other errors were fixed. Using all data, an **exploratory data analysis** was conducted to determine any parameters. Since the image datasets contain data from a random source, the parameters were measured, not sample statistics. Grid Search findings were used to then perform **data visualization and model predictions**. The following data visualizations were used to display the data: 
+A **data science workflow** was implemented to conduct this analysis. Firstly, the **problem statement** was defined—the physicians needed to determine how to increase accuracy rates and improve COVID-19 spread control. Next, **data ** was downloaded by locating credible sources that housed the appropriate datasets: Images data sets. Before beginning any analysis of the data, each individual dataset was imported to a **Pandas DataFrame**. Next, **data cleaning** was conducted to ensure that all datatypes were accurate and any other errors were fixed. Using all data, an **exploratory data analysis** was conducted to determine any parameters. Since the image datasets contain data from a random source, the parameters were measured, not sample statistics. Grid Search findings were used to then perform **data visualization and model predictions**. The following data visualizations were used to display the data: 
 - Model-1: Convolutional Neural Network (CNN) and Early Stopping
 - Model-2: Dropout Regularization
 - Model-3: Regularization Method: L1 and L2
 
-Once all data was visualized and all predictions are made.  To confirm and support the observations made, **external research** about the COVID-19 work and any other relevant data was conducted. Finally, well-informed **data-driven recommendations** for the physicians were compiled. 
+Once all data was visualized and some predictions are made.  To confirm and support the observations made, **external research** about the COVID-19 work and any other relevant data was conducted. Finally, well-informed **data-driven recommendations** for the physicians were compiled. 
 
 **SIGNIFICANT FINDINGS**
 
-When analyzing the datasets, few findings about SAT test scores and participation rates were gathered. Here are the most significant findings, focusing primarily on the SAT: 
-- SAT Total Scores, 2017-18: The distribution of average test scores from all states was bimodal. Students either performed very poorly or very well. 
-- SAT Participation Rates, 2017-18: The distribution of participation rates from all states appeared to be right skewed and slightly bimodal, where a majority of states experienced low participation rates, and only some had high participation rates. 
-- SAT Test Scores vs Participation Rates, 2017-18: In both years, there was a strong negative correlation between test scores and participation rates. The higher the participation rate, the lower the test score. A concentration of states on the East Coast tended have a combination of high participation and low test scores. 
+When analyzing the datasets, few findings about COVID-19 images scores were gathered. Here are the most significant findings, focusing primarily on the images datasets: 
+- Convolutional Neural Network (CNN) and Early Stopping: loss: 0.5565 - accuracy: 0.7130 - auc_1: 0.7819 - val_loss: 0.5665
+                 precision    recall  f1-score   support
+
+           0       0.79      0.58      0.67        45
+           1       0.74      0.89      0.81        62
+
+    accuracy                           0.76       107
+   macro avg       0.77      0.73      0.74       107
+weighted avg       0.76      0.76      0.75       107
+
+- Dropout Regularization: loss: 0.6714 - acc: 0.5908 - auc_2: 0.5993 - val_loss: 0.6714
+ 
+
+- Regularization Method: L1 and L2: loss: 0.6580 - acc: 0.6382 - auc_3: 0.6827 - val_loss: 0.6587
+
+- Indeed the score is best for first simple NN model.
+
 
 ## Main Contents:
 ### prediction.ipynb Contents:
