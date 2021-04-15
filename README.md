@@ -107,13 +107,15 @@ Citations
 
 ---
 ## Conclusions & Outlook 
-I found that the College Board is focusing on increasing participation rates while not focusing on the outcome of test scores. There is a significant negative correlation between participation rates and test scores, which means that the higher the participation rates, the lower the test scores (and vice versa). Focusing solely on increasing participation rates by the College Board is equivalent to the College Board assisting in  deterioration of test scores. This may help in achieving an ideal of a 100% participation rate, however, a majority of US high schoolers will perform very poorly on the test.
+I found that the physicians are focusing on increasing x-ray image rates while not focusing on the quality of the images. There is a significant impact on processing and prediction rates of images, which means that the lower scores are related to not clean quality of the images taken. Secondly, we have to use best possible models and good quality data, advanced application of machine learning methodology, good reproducibility, and biases in study design.
 <br>
 **Outlook**
 <br>
-Therefore in order to achieve sustainable growth and be a resource trusted by students nationwide (i.e., its primary customers), I recommend the following:  
-- Instead of keeping focus only on the participation rate, they must have to focus seriously towards improving access to test preparation resources. 
-- Create a better test preparation support for states with highest participation rates, particularly in the East Coast where there is a concentration of states with high performance and low test scores.
+Therefore, to achive best score and highly improved predictions, I recommend the following:  
+- we have to use large datasets 
+- care should be taken with publicly available ‘Frankenstein datasets’.
+- Need Sufficient documentation to be reproducible
+- External validation are required to increase the likelihood of models
 
 --- 
 ## Data Sources
