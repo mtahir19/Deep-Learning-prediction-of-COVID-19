@@ -53,28 +53,23 @@ When analyzing the datasets, few findings about SAT test scores and participatio
 
 ## Main Contents:
 ### prediction.ipynb Contents:
-- Description of the chest X-ray images
-- Data Import & Cleaning
+- Libraries and Data Import
 - Exploratory Data Analysis
-- Convolutional Neural Network (CNN) and Early Stopping
-- Dropout Regularization
-- Regularization Method: L1 and L2
+- Model-1: Convolutional Neural Network (CNN) and Early Stopping
+- Model-2: Dropout Regularization
+- Model-3: Regularization Method: L1 and L2
 
 ### interpretation.ipynb Contents:
-- Description of the chest X-ray images
-- Data Import & Cleaning
+- Libraries Imports and Data Reading
 - Exploratory Data Analysis
-- Convolutional Neural Network (CNN) and Early Stopping
-- Dropout Regularization
-- Regularization Method: L1 and L2
+- Model Training: Convolutional Neural Network (CNN)
+- Model Interpretability
 
 ### nlp.ipynb Contents:
-- Description of the chest X-ray images
-- Data Import & Cleaning
-- Exploratory Data Analysis
-- Convolutional Neural Network (CNN) and Early Stopping
-- Dropout Regularization
-- Regularization Method: L1 and L2
+- Libraries Import and Reading the Data
+- Understanding some useful features
+- Train-Test split and Base Line Model
+- Natural Language Processing model prediction
 
 - External Research
 - Conclusions and Outlook
@@ -83,9 +78,10 @@ When analyzing the datasets, few findings about SAT test scores and participatio
 
 ---
 ## External Research
-Around 2 million students from the class of 2018 took the SAT, the highest ever.$^{1}$ In fact, there was a 27% increase in participation rates from the previous year.$^{2}$ SAT participation rates are so high that as of 2018, the test holds the title for "most widely used college admission test," beating the ACT where 1.91 million students took that test in the same year.$^{3}$  Although the SAT can celebrate this achievement, the data shows that there is a negative correlation between participation rates and test scores. This means that the higher the participation rate amongst all states the lower the average student test scores. 
+According to a very recent scientific review-paper published in the "journal Nature Machine Intelligence" has identified a lot important findings. This search identified 2,212 studies, of which 415 were included after initial screening and, after quality screening, "only 62 studies were included in the systematic review". None of the 62 models was of potential clinical use, which is a major weakness, given the urgency with which validated COVID-19 models are needed.
+We believe that Machine Learning is a promising and potentially powerful technique for detection and prognosis of COVID-19 disease. Machine Learning models could enable a personalized approach to medicine through improved diagnosis and prediction of individual responses to therapies.
 
-Contrary to the College Board's claim that the SAT offers "greater access and opportunity" for students who take their test. But the higher the chances are of more students performing poorly. If taking the SAT is a significant contributor to college acceptance, the SAT itself is posing a burden to students' access to college. Instead of focusing on increasing participation rates, the SAT shows focus more test preparation resources.  
+Some of the studies were hampered by issues with poor quality data, poor application of machine learning methodology, poor reproducibility, and biases in study design. A lot of the machine learning models were trained on sample datasets that were too small to be effective. Many other papers, the studies did not specify where their data had come from, or the models were trained and tested on the same data, or they were based on publicly available ‘Frankenstein datasets’ that had evolved and merged over time, making it impossible to reproduce the initial results. Therefore, in addition to higher quality datasets, manuscripts with sufficient documentation to be reproducible and external validation are required to increase the likelihood of models being taken forward and integrated into future clinical trials to establish independent technical and clinical validation as well as cost-effectiveness.
 
 Citations
 <br>
