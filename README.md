@@ -40,6 +40,7 @@ A **data science workflow** was implemented to conduct this analysis. Firstly, t
 - Model-3: Regularization Method: L1 and L2
 - Model Interpretability by SHAP
 - Supported by Natural Language Processing model prediction
+
 Once all data was visualized and some predictions are made.  To confirm and support the observations made, **external research** about the COVID-19 work and any other relevant data was conducted. Finally, well-informed **data-driven recommendations** for the physicians were compiled. 
 
 **SIGNIFICANT FINDINGS**
