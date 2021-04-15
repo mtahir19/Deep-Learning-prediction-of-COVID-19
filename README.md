@@ -52,8 +52,7 @@ When analyzing the datasets, few findings about COVID-19 images scores were gath
 -
  -          0       0.79      0.58      0.67        45
   -         1       0.74      0.89      0.81        62
--
- -   accuracy                           0.76       107
+ -   accuracy                           0.76      
   
 
 - Dropout Regularization: loss: 0.6714 - acc: 0.5908 - auc_2: 0.5993 - val_loss: 0.6714
@@ -61,7 +60,7 @@ When analyzing the datasets, few findings about COVID-19 images scores were gath
 
 - Regularization Method: L1 and L2: loss: 0.6580 - acc: 0.6382 - auc_3: 0.6827 - val_loss: 0.6587
 
-- Indeed the score is best for the first simple NN model.
+- Indeed the score is best for the first simple NN model-1.
 
 
 ## Main Contents:
