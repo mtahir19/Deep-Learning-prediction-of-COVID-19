@@ -49,10 +49,9 @@ When analyzing the datasets, few findings about COVID-19 images scores were gath
 - Convolutional Neural Network (CNN) and Early Stopping: loss: 0.5565 - accuracy: 0.7130 - auc_1: 0.7819 - val_loss: 0.5665
 
 -                 precision    recall  f1-score   support
--
- -          0       0.79      0.58      0.67        45
-  -         1       0.74      0.89      0.81        62
- -   accuracy                           0.76      
+-           0       0.79      0.58      0.67        45
+-           1       0.74      0.89      0.81        62
+-    accuracy                           0.76      
   
 
 - Dropout Regularization: loss: 0.6714 - acc: 0.5908 - auc_2: 0.5993 - val_loss: 0.6714
