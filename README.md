@@ -54,8 +54,7 @@ When analyzing the datasets, few findings about COVID-19 images scores were gath
   -         1       0.74      0.89      0.81        62
 -
  -   accuracy                           0.76       107
-  - macro avg       0.77      0.73      0.74       107
-- weighted avg       0.76      0.76      0.75       107
+  
 
 - Dropout Regularization: loss: 0.6714 - acc: 0.5908 - auc_2: 0.5993 - val_loss: 0.6714
  
