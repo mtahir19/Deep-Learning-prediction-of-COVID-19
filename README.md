@@ -46,7 +46,7 @@ Once all data is visualized and some predictions are made.  To confirm and suppo
 **SIGNIFICANT FINDINGS**
 
 When analyzing the datasets, few findings about COVID-19 images scores were gathered. Here are the most significant findings, focusing primarily on the images datasets: 
-- Convolutional Neural Network (CNN) and Early Stopping: loss: 0.5565 - accuracy: 0.7130 - auc_1: 0.7819 - val_loss: 0.5665
+- Convolutional Neural Network (CNN) and Early Stopping:
 
 -                 precision    recall  f1-score   support
 -           0       0.79      0.58      0.67        45
@@ -54,12 +54,7 @@ When analyzing the datasets, few findings about COVID-19 images scores were gath
 -    accuracy                           0.76      
   
 
-- Dropout Regularization: loss: 0.6714 - acc: 0.5908 - auc_2: 0.5993 - val_loss: 0.6714
- 
-
-- Regularization Method: L1 and L2: loss: 0.6580 - acc: 0.6382 - auc_3: 0.6827 - val_loss: 0.6587
-
-- Indeed the score is best for the first simple NN model-1.
+- Indeed the best score is from my simple Convolutional Neural Network (CNN) model-1.
 
 
 ## Main Contents:
@@ -109,8 +104,8 @@ I found that the physicians are focusing on increasing x-ray image rates while n
 **Outlook**
 <br>
 Therefore, to achieve best score and highly improved predictions, I recommend the following:  
-- we have to use large datasets 
-- care should be taken with publicly available ‘Frankenstein datasets’.
+- We have to use large datasets 
+- Care should be taken with publicly available ‘Frankenstein datasets’.
 - Need Sufficient documentation to be reproducible
 - External validation are required to increase the likelihood of models
 
