@@ -56,6 +56,8 @@ When analyzing the datasets, few findings about COVID-19 images scores were gath
 
 - Indeed the best score is from my simple Convolutional Neural Network (CNN) model-1.
 
+In our example, Recall would be a better metric because we don’t want to accidentally discharge an infected person and let them mix with the healthy population thereby spreading the contagious virus. Now you can understand why accuracy was a bad metric for our model.
+
 A care has to be taken for FN because we can't afford this situation to predict wrong. Recall is important in medical cases where it doesn’t matter whether we raise a false alarm but the actual positive cases should not go undetected!
 FN is calculated as FN/FN+TP, where FN is the number of false negatives and TP is the number of true positives (FN+TP being the total number of positives).
 
