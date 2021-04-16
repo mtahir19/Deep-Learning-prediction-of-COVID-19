@@ -55,13 +55,18 @@ When analyzing the datasets, few findings about COVID-19 images scores were gath
   
 
 - Indeed the best score is from my simple Convolutional Neural Network (CNN) model-1.
+
 A care has to be taken for FN because we can't afford this situation to predict wrong. Recall is important in medical cases where it doesn’t matter whether we raise a false alarm but the actual positive cases should not go undetected!
 FN is calculated as FN/FN+TP, where FN is the number of false negatives and TP is the number of true positives (FN+TP being the total number of positives).
-Accuracy (all correct / all) = TP + TN / TP + TN + FP + FN
+
+Accuracy (all correct / all) = TP + TN / TP + TN + FP + FN. 
+
 Precision (true positives / predicted positives) = TP / TP + FP.
 
-True negatives (TN): We predicted no, and they don't have the disease. 
+True negatives (TN): We predicted no, and they don't have the disease.
+
 False positives (FP): We predicted yes, but they don't actually have the disease. (Also known as a "Type I error.").
+
 False negatives (FN): We predicted no, but they actually do have the disease. (Also known as a "Type II error.").
 
 
